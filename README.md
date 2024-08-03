@@ -59,8 +59,8 @@
 1. **Clone the repository**:
 
     \`\`\`bash
-    git clone https://github.com/yourusername/smart-bid.git
-    cd smart-bid
+    git clone https://github.com/muhammadashhadgit/Smart-Bid-AI
+    cd smart-bid-AI
     \`\`\`
 
 2. **Install dependencies**:
