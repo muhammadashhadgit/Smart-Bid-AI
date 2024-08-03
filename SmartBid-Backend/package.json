@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cron": "^2.4.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.12.7",
+    "morgan": "^1.10.0",
+    "node": "^21.7.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^3.1.0",
+    "pbkdf2": "^3.1.2",
+    "punycode": "^2.3.1",
+    "socket.io": "^4.6.1",
+    "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": "^18"
+  },
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "name": "smartbid-backend",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,103 @@
+/* Container for the entire ViewAllProducts component */
+.view-all-products {
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+/* Header styling */
+.view-all-products h2 {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Flexbox container for product cards */
+.product-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual product card styling */
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Adjust width as needed */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect for product card */
+.product-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Product name styling */
+.product-card h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Product price styling */
+.product-card p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Loading placeholder styling */
+.loading-placeholder {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+  margin-top: 50px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.spinner {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #000000; /* Black */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  display: block;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
