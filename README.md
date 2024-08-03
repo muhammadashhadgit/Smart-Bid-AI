@@ -39,6 +39,10 @@
 - **Mongoose**: For object data modeling (ODM) with MongoDB.
 - **JWT**: For user authentication and authorization.
 
+### Flask
+
+- **Python**: For designing the Machine Learning Model. 
+
 ### Development Tools
 
 - **Git**: For version control.
@@ -52,6 +56,7 @@
 
 - Node.js
 - MongoDB
+- Python
 - Docker (optional, for containerization)
 
 ### Steps
